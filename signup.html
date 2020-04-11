@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Love Running</title>
+    
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+    <header>
+        <a href="index.html">
+            <h2 id="logo">Love Running</h2>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+   <section class="form-section">
+       
+  <!--Begin by pasting the solution code from Challnge 1 in here-->
+  <form class="signup-form"action="https://formdump.codeinstitute.net/" method="POST"> 
+  
+  <h2>Let's get you signed up!<i class="fas fa-heartbeat"></i></h2>
+  
+  <label>First Name</label>
+  <input class="text-input" type="text" name="first_name"required
+  for="fname" id="fname">
+  
+  <label>Last Name</label>
+  <input class="text-input" type="text" name="last_name"required
+  for="lname" id="lname">
+  
+  <label>Email Address</label>
+  <input class="text-input" type="email" name="email_address"required
+   id="email" for="email">
+  
+  <label>Road</label>
+  <input type="radio" for="road" id="road" value="road" name="running_preference"required>
+  
+  <label>Trail</label>
+  <input type="radio" for="Trail" id="Trail" value="trail" name="running_preference">
+  
+   <label>Both</label>
+  <input type="radio" for="Both" id="Both" value="both" name="running_preference">
+  
+  <input class="join-button" type="submit" value="Let's Run!">
+  </form>
+  
+   </section> 
+    <footer>
+        <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/3982258271.js"></script>
+</body>
+</html>
